@@ -1,0 +1,19 @@
+{
+  "name": "hack-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "link-module-alias"
+  },
+  "_moduleAliases": {
+    "@output": "./utilities/output/output.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "link-module-alias": "^1.2.0",
+    "netlify-cli": "^12.2.8"
+  }
+}
